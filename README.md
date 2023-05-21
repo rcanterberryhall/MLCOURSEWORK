@@ -1,6 +1,6 @@
 # MLCOURSEWORK
 
-Background:
+Business Case:
 
 According to https://www.machinemetrics.com/blog/the-real-cost-of-downtime-in-manufacturing, The cost of unplanned downtime due to mechanical machine failure can be as much as $260,000 an hour. Being able to manage machine maintainance, avoiding downtime while also avoiding costly over maintainance is critical to any manufacturing operation. The ability to predict needed mainainance base on real world data rather can prescriptive studies from OEMs would bring huge savings in both time and capital to the manufactoring industry.
 
@@ -22,3 +22,12 @@ This dataset is originally found at https://archive.ics.uci.edu/ml/datasets/AI4I
 Performance metric:
 
 The goal will be to develop a tool that can predict the type of failure with an error rate of less than 25%
+
+Failure modes are:
+
+No Failure
+Tool Wear Failure
+Thermal Thermal Failure
+Power Failure
+Overstrain Failure
+
