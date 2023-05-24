@@ -31,3 +31,4 @@ Thermal Thermal Failure
 Power Failure
 Overstrain Failure
 
+// Hey Reid, this sounds like you've got your work cut out for you but also got all your ducks in a line. Everything seems well thought out and ready I know you'll hit the 25% error rate without a doubt. No real comments on the README and notebook though, mainly just a few typos here and there. Lines 14 and 15 are the same in the README.md and the failure modes could be more readable with either commas between each or a line break maybe, in markdown to write a line break you put <br_/> but instead of the underscore it's a space.
