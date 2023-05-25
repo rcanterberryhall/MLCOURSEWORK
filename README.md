@@ -37,7 +37,7 @@ Overstrain Failure
 
 Confusion matrix:
 
-Savinf from preventive maintenence are often presented more in scheduling than direct cost. replacing a part cost the same whether it is done early or as required, however, replacing the part early can be scheduled ahead of time. That means that these replacements can be done when they are convient and at time that has the least cost impact on plant operations. Many plants perform preventative maintence on holidays or weekends when the plant would be down anyway. 
+Savings from preventive maintenence are often presented more in scheduling than direct cost. replacing a part cost the same whether it is done early or as required, however, replacing the part early can be scheduled ahead of time. That means that these replacements can be done when they are convient and at time that has the least cost impact on plant operations. Many plants perform preventative maintence on holidays or weekends when the plant would be down anyway. 
 
 | Failure modes  | P | N |
 | ------------- | ------------- | ------------- |
