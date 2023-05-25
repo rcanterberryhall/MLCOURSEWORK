@@ -2,7 +2,7 @@
 
 Business Case:
 
-According to https://www.machinemetrics.com/blog/the-real-cost-of-downtime-in-manufacturing, The cost of unplanned downtime due to mechanical machine failure can be as much as $260,000 an hour. Being able to manage machine maintainance, avoiding downtime while also avoiding costly over maintainance is critical to any manufacturing operation. The ability to predict needed mainainance base on real world data rather can prescriptive studies from OEMs would bring huge savings in both time and capital to the manufactoring industry.
+According to https://www.machinemetrics.com/blog/the-real-cost-of-downtime-in-manufacturing, The cost of unplanned downtime due to mechanical machine failure can be as much as $260,000 an hour. Many major repairs can take 8 hours or more. Being able to manage machine maintainance, avoiding downtime while also avoiding costly over maintainance is critical to any manufacturing operation. The ability to predict needed mainainance base on real world data rather can prescriptive studies from OEMs would bring huge savings in both time and capital to the manufactoring industry. 
 
 Project description:
 
@@ -34,5 +34,24 @@ Thermal Thermal Failure
 Power Failure
 
 Overstrain Failure
+
+Confusion matrix:
+
+Savinf from preventive maintenence are often presented more in scheduling than direct cost. replacing a part cost the same whether it is done early or as required, however, replacing the part early can be scheduled ahead of time. That means that these replacements can be done when they are convient and at time that has the least cost impact on plant operations. Many plants perform preventative maintence on holidays or weekends when the plant would be down anyway. 
+
+| Failure modes  | P | N |
+| ------------- | ------------- | ------------- |
+| No Failure  | TP(0) | TN(1M)  |
+| No Failure  | FP(1M) | FN(0)  |
+| Tool Wear Failure  | TP(-.5M) | TN(0)  |
+| Tool Wear Failure  | FP(.5M) | FN(1M)  |
+| Thermal Thermal Failure  | TP(-.5M) | TN(0)  |
+| Thermal Thermal Failure    | FP(.5M) | FN(1M)  |
+| Power Failure  | TP(-.5M) | TN(0)  |
+| Power Failure  | FP(.5M) | FN(1M)  |
+| Overstrain Failure  | TP(-.5M) | TN(0)  |
+| Overstrain Failure   | FP(.5M) | FN(1M)  |
+
+
 
 // Hey Reid, this sounds like you've got your work cut out for you but also got all your ducks in a line. Everything seems well thought out and ready I know you'll hit the 25% error rate without a doubt. No real comments on the README and notebook though, mainly just a few typos here and there. Lines 14 and 15 are the same in the README.md and the failure modes could be more readable with either commas between each or a line break maybe, in markdown to write a line break you put <br_/> but instead of the underscore it's a space.
