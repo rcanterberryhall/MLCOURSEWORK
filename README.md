@@ -41,16 +41,16 @@ Savinf from preventive maintenence are often presented more in scheduling than d
 
 | Failure modes  | P | N |
 | ------------- | ------------- | ------------- |
-| No Failure  | TP(0) | TN(1M)  |
-| No Failure  | FP(1M) | FN(0)  |
-| Tool Wear Failure  | TP(-.5M) | TN(0)  |
-| Tool Wear Failure  | FP(.5M) | FN(1M)  |
-| Thermal Thermal Failure  | TP(-.5M) | TN(0)  |
-| Thermal Thermal Failure    | FP(.5M) | FN(1M)  |
-| Power Failure  | TP(-.5M) | TN(0)  |
-| Power Failure  | FP(.5M) | FN(1M)  |
-| Overstrain Failure  | TP(-.5M) | TN(0)  |
-| Overstrain Failure   | FP(.5M) | FN(1M)  |
+| No Failure  | TP($0) | TN($1M)  |
+| No Failure  | FP($1M) | FN($0)  |
+| Tool Wear Failure  | TP(-$.5M) | TN($0)  |
+| Tool Wear Failure  | FP($.5M) | FN($1M)  |
+| Thermal Thermal Failure  | TP(-$.5M) | TN($0)  |
+| Thermal Thermal Failure    | FP($.5M) | FN($1M)  |
+| Power Failure  | TP(-$.5M) | TN($0)  |
+| Power Failure  | FP($.5M) | FN($1M)  |
+| Overstrain Failure  | TP(-$.5M) | TN($0)  |
+| Overstrain Failure   | FP($.5M) | FN($1M)  |
 
 
 
